@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+
+specVersion: "3.1"
+metadata:
+  name: moovi.zmocusers
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          destination: MOOVI_S4
+          url: https://ndc-srvhana.opus-idc.com.br:8100
+          client: '250'
+        app:
+          name: ZMOCFE_USERS
+          description: Fiori Users
+          package: ZMOC_FIORIELEMENTS
+          transport: S4HK904965
+        exclude:
+          - /test/

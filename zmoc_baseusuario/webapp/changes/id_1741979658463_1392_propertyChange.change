@@ -1,0 +1,41 @@
+{
+    "fileName": "id_1741979658463_1392_propertyChange",
+    "fileType": "change",
+    "changeType": "propertyChange",
+    "moduleName": "",
+    "reference": "moovi.zmocbaseusuario",
+    "packageName": "",
+    "content": {
+        "property": "visible",
+        "newValue": true
+    },
+    "selector": {
+        "id": "moovi.zmocbaseusuario::sap.suite.ui.generic.template.ObjectPage.view.Details::ZMOCCDS_C_USER_TOOLS--Ferramentas::Section",
+        "idIsLocal": false,
+        "type": "sap.uxap.ObjectPageSection"
+    },
+    "layer": "CUSTOMER_BASE",
+    "texts": {},
+    "namespace": "apps/moovi.zmocbaseusuario/changes/",
+    "projectId": "",
+    "creation": 1741979658463,
+    "originalLanguage": "",
+    "support": {
+        "generator": "changeUtils: SAPFioriTools",
+        "service": "",
+        "user": "",
+        "sapui5Version": " ",
+        "sourceChangeFileName": "",
+        "compositeCommand": ""
+    },
+    "oDataInformation": {},
+    "dependentSelector": {},
+    "validAppVersions": {
+        "from": "0.0.1",
+        "to": "0.0.1",
+        "creation": "0.0.1"
+    },
+    "jsOnly": false,
+    "variantReference": "",
+    "appDescriptorChange": false
+}
